@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jornal Pomposo</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0fff4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #b0eacd;
+      color: #205c3b;
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 4px solid #88d4b2;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 1px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #d9f8ec;
+      padding: 0.8rem;
+    }
+
+    nav a {
+      color: #205c3b;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .noticia {
+      background: #ffffff;
+      border: 2px solid #c4f0d9;
+      border-radius: 20px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      transition: transform 0.2s;
+    }
+
+    .noticia:hover {
+      transform: scale(1.01);
+    }
+
+    .noticia h2 {
+      color: #207050;
+      margin-top: 0;
+    }
+
+    .noticia p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #b0eacd;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #205c3b;
+      margin-top: 2rem;
+    }
+
+    .botao {
+      display: inline-block;
+      padding: 0.6rem 1.2rem;
+      margin-top: 1rem;
+      background-color: #88d4b2;
+      color: white;
+      border-radius: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .botao:hover {
+      background-color: #76c4a0;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      main {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Jornal Pomposo</h1>
+    <p>Boas notícias ambientais que fazem sua plantinha interior florescer!</p>
+  </header>
+
+  <nav>
+    <a href="#">Início</a>
+    <a href="#">Últimas</a>
+    <a href="#">Vídeos</a>
+    <a href="#">Sobre</a>
+  </nav>
+
+  <main>
+    <div class="noticia">
+      <h2>🌱 Mata Atlântica tem maior regeneração em 20 anos</h2>
+      <p>Estudos mostram que áreas antes degradadas estão voltando a florescer graças a políticas ambientais e mobilização comunitária.</p>
+      <a href="#" class="botao">Ler mais</a>
+    </div>
+
+    <div class="noticia">
+      <h2>🐢 Número de tartarugas marinhas aumenta no litoral brasileiro</h2>
+      <p>Projetos de proteção e conscientização mostram resultado: mais filhotes chegando ao mar com segurança.</p>
+      <a href="#" class="botao">Ler mais</a>
+    </div>
+
+    <div class="noticia">
+      <h2>🌼 Estudantes criam horta urbana sustentável em escola pública</h2>
+      <p>Alunos do ensino médio transformam pátio em espaço verde produtivo, incentivando alimentação saudável e cuidado com o ambiente.</p>
+      <a href="#" class="botao">Ler mais</a>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 Jornal Pomposo • Sustentabilidade com alegria 🌻
+  </footer>
+
+</body>
+</html>
